@@ -1,3 +1,28 @@
+## v7.5.3 (2021-02-04)
+
+### BUG FIXES
+
+* [`303a4982f`](https://github.com/npm/cli/commit/303a4982fe705b07c3d2ab50e9b20388e1577b0a)
+  fix(publish): follow all configs for registry auth check
+  [#2602](https://github.com/npm/cli/issues/2602)
+  ([@wraithgar](https://github.com/wraithgar))
+* [`b544e274f`](https://github.com/npm/cli/commit/b544e274fd8eb4c1e42ee694283ea0a0f494f588)
+  [#2613](https://github.com/npm/cli/issues/2613)
+  pass -q to curl calls to disable user .curlrc files
+  ([@nlf](https://github.com/nlf))
+
+### DEPENDENCIES
+
+* [`fbdb4f6e4`](https://github.com/npm/cli/commit/fbdb4f6e4cfcce010de6bdb5d133c0e008faca32)
+  `pacote@11.2.5`
+    * prevent infinite recursion in git dep preparation
+* [`6cf81853f`](https://github.com/npm/cli/commit/6cf81853fad2ec5e25f095691ac2916fae571265)
+  `init-package-json@2.0.2`
+    * avoid duplicating optionalDependencies as dependencies in package.json
+* [`ec2900faf`](https://github.com/npm/cli/commit/ec2900faf2fec7740e7eb3309b9988985ebd2275)
+  `@npmcli/arborist@2.2.0`
+    * avoid duplicating optionalDependencies as dependencies in package.json
+
 ## v7.5.2 (2021-02-02)
 
 ### BUG FIXES
